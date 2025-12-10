@@ -1,1 +1,62 @@
+/* Reset default margins and font */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3f4f6;
+  color: #111827;
+}
 
+/* Container styling */
+div {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h1, h3 {
+  color: #1f2937;
+  margin-bottom: 12px;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* Buttons */
+button {
+  padding: 10px 16px;
+  margin-top: 10px;
+  margin-right: 6px;
+  border: none;
+  border-radius: 6px;
+  background-color: #3b82f6;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #2563eb;
+}
+
+/* Paragraphs */
+p {
+  margin: 6px 0;
+}
+
+/* Sections */
+h3 + input,
+h3 + input + button {
+  margin-bottom: 12px;
+}
